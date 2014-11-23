@@ -1,13 +1,14 @@
-GH-PAGES = ${HOME}/dev/urubu-gh-pages/
+PYTHON = /var/pythonvirtualenvs/blog/bin/python
 
-all: build
+all: pull build
 
 build:
-	python -m urubu build
+	$(PYTHON) -m urubu build
 	touch _build/.nojekyll
 
 serve:
-	python -m urubu serve
+	$(PYTHON) -m urubu serve
 
-publish:
-	git subtree push --prefix _build origin gh-pages    
+pull:
+	git pull origin master --quiet
+
