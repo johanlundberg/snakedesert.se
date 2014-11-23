@@ -8,9 +8,9 @@ date: 2014-11-23
 Lead in
 {.lead}
 
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+# This is an `<h1>` tag
+## This is an `<h2>` tag
+###### This is an `<h6>` tag
 
 *This text will be italic*
 _This will also be italic_
@@ -35,6 +35,6 @@ Inline code:
 I think you should use an
 `<addr>` element here instead.
 
-´´´python
+```python
 print "hello world!"
-´´´
+```
