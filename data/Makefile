@@ -1,6 +1,6 @@
-PYTHON = /var/pythonvirtualenvs/blog/bin/python
+PYTHON = ../env/bin/python
 
-all: pull build
+all: build
 
 build:
 	$(PYTHON) -m urubu build
@@ -12,3 +12,7 @@ serve:
 pull:
 	git pull origin master --quiet
 
+publish:
+	git push origin master
+
+redeploy: pull build
