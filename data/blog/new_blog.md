@@ -21,7 +21,7 @@ I am quite new to this markdown even though I have used it in the past.
 *This text will be italic.* _This will also be italic._ **This text will be bold.** __This will also be bold.__ *You **can** combine them.*
 
 ### Images
-![Alt Text](http://bluesnake.snakedesert.se/images/rar.gif)
+![Alt Text](//bluesnake.snakedesert.se/images/rar.gif)
 
 ### Links
 It's nice to keep the data over at [GitHub](http://github.com) so you can publish stuff from anywhere. Even if we rarely will be doing that, publish that is.
