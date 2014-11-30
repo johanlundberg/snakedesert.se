@@ -8,12 +8,12 @@ tags:
  - dota 2
 ---
 
-This is the Dota 2 autoexec.cfg I use and I can recommend it.
+This is the Dota 2 autoexec.cfg I use and even though I am no pro I can recommend it for an easier time in Dota 2.
 {.lead}
 
-It gives you stuff like a hot key courir (4), any autocast on (5), rune views (6) and much more. Just give it a quick read. Remember to press F8 when entering the game to load it.
+It set up macros for hot key courier (4), any autocast on (5), rune views (6) and many other minor tweaks. Just give it a quick read. Remember to press F8 when entering the game to load the macros.
 
-Put the text below in a file name `autoexec.cfg` in `path\to\Steam\SteamApps\common\dota 2 beta\dota\cfg\autoexec.cfg`.
+Put the text below in a file named `autoexec.cfg` in `path\to\Steam\SteamApps\common\dota 2 beta\dota\cfg\`.
 
 ```python
 //////////////////////////
