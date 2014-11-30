@@ -3,6 +3,10 @@ title: New blog
 layout: page 
 pager: true
 date: 2014-11-23
+author: Johan
+tags:
+ - news
+ - urubu
 ---
 
 Trying out the minimalistic CMS [urubu]. Look!
@@ -24,7 +28,9 @@ I am quite new to this markdown even though I have used it in the past.
 ![Alt Text](//bluesnake.snakedesert.se/images/rar.gif)
 
 ### Links
-It's nice to keep the data over at [GitHub](http://github.com) so you can publish stuff from anywhere. Even if we rarely will be doing that, publish that is.
+It's nice to keep the data over at [GitHub] so you can publish stuff from anywhere. Even if we rarely will be doing that, publish that is.
+
+[GitHub]: https://www.github.com
 
 ### Quotes
 As Kurt Cobain said:

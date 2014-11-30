@@ -16,12 +16,16 @@
 
   <div class="page-header">
     {% block title %} 
-    <h1>{{this.title}}</h1>
+    <h1>
+        {{this.title}}
+        {% for tag in this.tags %}
+            <small><a href="/tag/{{tag}}/" class="">{{tag}}</a></small>
+        {% endfor %}
+    </h1>
     {% endblock %}
   </div>
 
   <div class="row">
-
     {% block sidebar %}
     <div class="col-md-3" role="navigation"> 
       {% if this.toc %} 
@@ -39,6 +43,7 @@
       {% block content %}
       <div class="col-md-6" role="main">
         {{this.body}}
+	<small class="pull-right">Posted {{this.date}} by {{this.author}}</small>
       </div>
       {% endblock %}
     </div>

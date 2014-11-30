@@ -3,6 +3,9 @@ title: New logo?
 layout: simple_page 
 pager: true
 date: 2014-11-28
+author: Johan
+tags:
+ - news
 ---
 
 

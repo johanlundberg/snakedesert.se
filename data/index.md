@@ -1,5 +1,5 @@
 ---
-title: www.snakedesert.se 
+title: snakedesert.se 
 tagline: Dead tired developers... 
 layout: home 
 content:

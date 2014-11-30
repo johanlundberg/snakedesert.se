@@ -3,6 +3,9 @@ title: Dota 2 autoexec.cfg
 layout: simple_wide_page 
 pager: true
 date: 2014-11-29
+author: Johan
+tags:
+ - dota 2
 ---
 
 This is the Dota 2 autoexec.cfg I use and I can recommend it.
