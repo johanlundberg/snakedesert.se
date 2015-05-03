@@ -2,4 +2,7 @@
 _build
 
 # Python
-_python/*.pyc
+*.pyc
+
+# Environment
+env
