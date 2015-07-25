@@ -26,7 +26,7 @@ Edit the file `path\to\Steam\SteamApps\common\dota 2 beta\game\dota\cfg\game_con
         {
                 "mat_motion_blur_enabled"       "0"
                 "snd_foliage_db_loss"   "0"
-                "exec"  "autoexec.conf"
+                "exec"  "autoexec.cfg"
         }
 }
 ```
