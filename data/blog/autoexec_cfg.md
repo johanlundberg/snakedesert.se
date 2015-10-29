@@ -162,7 +162,6 @@ net_graphpos "1"
 net_graphtext "1"
  
 dota_sf_game_end_delay "0" //0 delay on end score
-dota_minimap_misclick_time "0" //0 delay on clicking on the map
 dota_reset_camera_on_spawn "0"  //Puts camera over hero on any re-spawn, 0 disables
 fps_max "60" //fps
  
